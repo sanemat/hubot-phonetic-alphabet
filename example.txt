@@ -1,2 +1,4 @@
 Alice> hubot phonetic sanemat
 Hubot> Sierra Alfa November Echo Mike Alfa Tango
+
+http://en.wikipedia.org/wiki/NATO_phonetic_alphabet
