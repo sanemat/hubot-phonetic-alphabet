@@ -1,0 +1,2 @@
+Alice> hubot phonetic sanemat
+Hubot> Sierra Alfa November Echo Mike Alfa Tango
