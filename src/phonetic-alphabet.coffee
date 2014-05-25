@@ -15,8 +15,8 @@
 #   sanemat[@<org>]
 
 module.exports = (robot) ->
-  robot.respond /hello/, (msg) ->
-    msg.reply "hello!"
+  robot.respond /phonetic (.+)$/, (msg) ->
+    msg.reply phoneticAlpabet(msg.match[1])
 
-  robot.hear /orly/, ->
-    msg.send "yarly"
+phoneticAlpabet = (text) ->
+  text.toUpperCase()
