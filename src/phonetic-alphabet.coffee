@@ -14,9 +14,11 @@
 # Author:
 #   sanemat[@<org>]
 
+NPA = require('npa')()
+
 module.exports = (robot) ->
   robot.respond /phonetic (.+)$/, (msg) ->
     msg.reply phoneticAlpabet(msg.match[1])
 
 phoneticAlpabet = (text) ->
-  text.toUpperCase()
+  NPA.toNPA(text)
