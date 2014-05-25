@@ -11,6 +11,8 @@
 #   Alice> Hubot phonetic sanemat
 #   Hubot> Alice: Sierra,Alfa,November,Echo,Mike,Alfa,Tango
 #
+#   see: http://en.wikipedia.org/wiki/NATO_phonetic_alphabet
+#
 # Author:
 #   sanemat
 

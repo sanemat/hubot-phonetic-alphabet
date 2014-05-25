@@ -4,7 +4,7 @@
 [![Build Status](http://img.shields.io/travis/sanemat/hubot-phonetic-alphabet/master.svg?style=flat)](https://travis-ci.org/sanemat/hubot-phonetic-alphabet)
 [![Code Climate](http://img.shields.io/codeclimate/github/sanemat/hubot-phonetic-alphabet.svg?style=flat)](https://codeclimate.com/github/sanemat/hubot-phonetic-alphabet)
 
-A hubot script that does the things
+Transform string to phonetic alphabet
 
 See [`src/phonetic-alphabet.coffee`](src/phonetic-alphabet.coffee) for full documentation.
 
@@ -23,6 +23,8 @@ Then add **hubot-phonetic-alphabet** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+Alice> Hubot phonetic sanemat
+Hubot> Alice: Sierra,Alfa,November,Echo,Mike,Alfa,Tango
 ```
+
+http://en.wikipedia.org/wiki/NATO_phonetic_alphabet
