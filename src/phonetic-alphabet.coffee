@@ -5,10 +5,10 @@
 #   "npa"
 #
 # Commands:
-#   hubot phonetic <string>
+#   hubot phoneticize <string>
 #
 # Notes:
-#   Alice> Hubot phonetic sanemat
+#   Alice> Hubot phoneticize sanemat
 #   Hubot> Alice: Sierra,Alfa,November,Echo,Mike,Alfa,Tango
 #
 #   see: http://en.wikipedia.org/wiki/NATO_phonetic_alphabet
@@ -19,8 +19,8 @@
 NPA = require('npa')()
 
 module.exports = (robot) ->
-  robot.respond /phonetic (.+)$/, (msg) ->
-    msg.reply phoneticAlpabet(msg.match[1])
+  robot.respond /phoneticize (.+)$/, (msg) ->
+    msg.reply phoneticizeAlpabet(msg.match[1])
 
-phoneticAlpabet = (text) ->
+phoneticizeAlpabet = (text) ->
   NPA.toNPA(text)
