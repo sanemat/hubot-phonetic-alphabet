@@ -1,6 +1,6 @@
 {
   "name": "hubot-phonetic-alphabet",
-  "description": "A hubot script that does the things",
+  "description": "Transform string to phonetic alphabet",
   "version": "0.0.0",
   "author": "sanemat <o.gata.ken@gmail.com>",
   "license": "MIT",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-phonetic-alphabet.git"
+    "url": "git://github.com/sanemat/hubot-phonetic-alphabet.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-phonetic-alphabet/issues"
+    "url": "https://github.com/sanemat/hubot-phonetic-alphabet/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
