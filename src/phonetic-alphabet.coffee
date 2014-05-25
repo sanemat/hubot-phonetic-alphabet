@@ -1,18 +1,18 @@
 # Description
-#   A hubot script that does the things
+#   Transform string to phonetic alphabet
 #
-# Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+# Dependencies:
+#   "npa"
 #
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
+#   hubot phonetic <string>
 #
 # Notes:
-#   <optional notes required for the script>
+#   Alice> Hubot phonetic sanemat
+#   Hubot> Alice: Sierra,Alfa,November,Echo,Mike,Alfa,Tango
 #
 # Author:
-#   sanemat[@<org>]
+#   sanemat
 
 NPA = require('npa')()
 
