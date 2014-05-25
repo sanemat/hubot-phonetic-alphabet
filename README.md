@@ -23,7 +23,7 @@ Then add **hubot-phonetic-alphabet** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-Alice> Hubot phonetic sanemat
+Alice> Hubot phoneticize sanemat
 Hubot> Alice: Sierra,Alfa,November,Echo,Mike,Alfa,Tango
 ```
 

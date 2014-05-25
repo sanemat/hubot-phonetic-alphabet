@@ -13,4 +13,4 @@ describe 'phonetic-alphabet', ->
     require('../src/phonetic-alphabet')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/phonetic (.+)$/)
+    expect(@robot.respond).to.have.been.calledWith(/phoneticize (.+)$/)
