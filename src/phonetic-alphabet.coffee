@@ -1,11 +1,11 @@
 # Description
-#   Transform string to phonetic alphabet
+#   Transform phrase to phonetic alphabet, this is phoneticize.
 #
 # Dependencies:
 #   "npa"
 #
 # Commands:
-#   hubot phoneticize <string>
+#   hubot phoneticize <phrase> - Phoneticizes phrase, e.g. abc into Alfa,Bravo,Charlie
 #
 # Notes:
 #   Alice> Hubot phoneticize sanemat
