@@ -4,7 +4,7 @@
 [![Build Status](http://img.shields.io/travis/sanemat/hubot-phonetic-alphabet/master.svg?style=flat)](https://travis-ci.org/sanemat/hubot-phonetic-alphabet)
 [![Code Climate](http://img.shields.io/codeclimate/github/sanemat/hubot-phonetic-alphabet.svg?style=flat)](https://codeclimate.com/github/sanemat/hubot-phonetic-alphabet)
 
-Transform string to phonetic alphabet
+Transform phrase to phonetic alphabet, this is phoneticize.
 
 See [`src/phonetic-alphabet.coffee`](src/phonetic-alphabet.coffee) for full documentation.
 

@@ -1,6 +1,6 @@
 {
   "name": "hubot-phonetic-alphabet",
-  "description": "Transform string to phonetic alphabet",
+  "description": "Transform phrase to phonetic alphabet, this is phoneticize.",
   "version": "0.1.0",
   "author": "sanemat <o.gata.ken@gmail.com>",
   "license": "MIT",
